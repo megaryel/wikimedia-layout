@@ -1,0 +1,131 @@
+/*how do i make it so that when i shrink the screen the imgs stay a fixed size?*/
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.top-text {
+	height: calc (25% - 20px);
+	/*width: 100%; why does this make the text so weird?*/
+	padding: 10px;
+	margin: 0 15%;
+	font-family: "helvetica";
+	font-size: 20px;
+	line-height: 29.25px;
+}
+/*why is there extra blue on top and bottom of the blue when i inspect element?*/
+
+.bottom-text {
+	height: calc (5% - 20px);
+	padding: 15px 50px 10px 50px; 
+	margin: 25px 15% 5px 15%;
+	font-family: "helvetica";
+	font-size: 13px;
+	line-height: 19.5px;
+	border-top: 1px solid gray;
+}
+
+.footer {
+	height: 5%;
+	padding: 0px 10px; 
+	margin: 0px 10px;
+	font-family: "helvetica";
+	font-size: 13px;
+}
+
+.footer-links {
+	padding: 0px 10px;
+}
+
+.hyperlink {
+	text-decoration: none;
+}
+
+.right-align {
+	text-align: right;
+}
+
+.center-align {
+	text-align: center;
+}
+
+.row {
+	height: 17%;
+	/*height: calc (25% - 20px); why does it break when i use calc here?*/
+	margin: 0 12%;
+}
+
+.pic {
+	/*why wont the boxes fit when i set the boxes equal to 25%*/
+	width: 24.459%;  
+	height: 100%;
+	margin: 0;
+	float: left;
+/*	display: flex;
+	flex-direction: row; 
+	when i try to use flex here it stays vertical, why?*/
+}
+
+.wikipedia {
+	background: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png) center center no-repeat;
+}
+
+.wiktionary {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/135px-Wiktionary-logo-en.svg.png") center center no-repeat;
+}
+
+.wikiquote {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wikiquote-logo-en.png/120px-Wikiquote-logo-en.png") center center no-repeat;
+}
+
+.wikibooks {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo-en-noslogan.svg/140px-Wikibooks-logo-en-noslogan.svg.png") center center no-repeat;
+}
+
+.wikisource {
+	background: url("http://upload.wikimedia.org/wikipedia/sources/b/bc/Wiki.png") center center no-repeat;
+}
+
+.wikinews {
+	background: url("http://upload.wikimedia.org/wikinews/en/b/bc/Wiki.png") center center no-repeat;
+}
+
+.wikiversity {
+	background: url("http://upload.wikimedia.org/wikiversity/en/b/bc/Wiki.png") center center no-repeat;
+}
+
+.wikispecies {
+	background: url("http://upload.wikimedia.org/wikipedia/species/b/bc/Wiki.png") center center no-repeat;
+}
+
+.mediawiki {
+	background: url("http://upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png") center center no-repeat;
+}
+
+.wikidata {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/e/e4/Wikidata-logo-en-135px.png") center center no-repeat;
+}
+
+.wikimediaCommons {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/7/79/Wiki-commons.png") center center no-repeat;
+}
+
+.wikivoyage {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wikivoyage-Logo-v3-en.svg/135px-Wikivoyage-Logo-v3-en.svg.png") center center no-repeat;
+}
+
+.wikimediaMeta {
+	background: url("http://upload.wikimedia.org/wikipedia/meta/b/bc/Wiki.png") center center no-repeat;
+}
+
+.wikimediaIncub {
+	background: url("http://upload.wikimedia.org/wikipedia/incubator/b/bc/Wiki.png") center center no-repeat;
+}
+
+.wikimediaLabs {
+	background: url("data:image/png;base64,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") center center no-repeat;
+}
+
+.wikimediaFoundation {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wikimedia_Foundation_RGB_logo_with_text.svg/135px-Wikimedia_Foundation_RGB_logo_with_text.svg.png") center center no-repeat;
+}

@@ -1,0 +1,119 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.text-body {
+	height:20%;
+	width:100%;
+	font-family: "sans-serif";
+	font-size: 20px;
+	padding: 5% 15% 5% 15%;
+    box-sizing: border-box;
+}
+/*.top-text {
+	height:90%;
+	width:100%;
+}*/
+.subtext {
+	height:5%;
+	width:100%;
+	font-family: "sans-serif";
+	font-size: 20px;
+	padding: 5% 15% 5% 15%;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.grandparent {
+	width:80%;
+	height: 70%;
+	margin: 0 auto;
+}
+
+.parent {
+	width:100%;
+	height: 25%%;
+	display:flex;
+/*	align-items: center;*/
+    justify-content: space-between;
+/*    flex-direction: row;*/
+/*    margin: 20%;*/
+/*    float: left;*/
+}
+
+.box {
+	height: 100%;
+	width: 25%;
+}
+
+.pic1 {
+	background: url("http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png") center center no-repeat;
+}
+
+.pic2 {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Wiktionary-logo-en.svg/135px-Wiktionary-logo-en.svg.png") center center no-repeat;
+}
+
+.pic3 {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Wikiquote-logo-en.png/120px-Wikiquote-logo-en.png") center center no-repeat;
+}
+
+.pic4 {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo-en-noslogan.svg/140px-Wikibooks-logo-en-noslogan.svg.png") center center no-repeat;
+}
+
+.pic5 {
+	background: url("http://upload.wikimedia.org/wikipedia/sources/b/bc/Wiki.png") center center no-repeat;
+}
+
+.pic6 {
+	background: url("http://upload.wikimedia.org/wikinews/en/b/bc/Wiki.png") center center no-repeat;
+}
+
+.pic7 {
+	background: url("http://upload.wikimedia.org/wikiversity/en/b/bc/Wiki.png") center center no-repeat;
+}
+
+.pic8 {
+	background: url("http://upload.wikimedia.org/wikipedia/species/b/bc/Wiki.png") center center no-repeat;
+}
+
+.pic9 {
+	background: url("http://upload.wikimedia.org/wikipedia/mediawiki/b/bc/Wiki.png") center center no-repeat;
+}
+
+.pic10 {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/e/e4/Wikidata-logo-en-135px.png") center center no-repeat;
+}
+
+.pic11 {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/7/79/Wiki-commons.png") center center no-repeat;
+}
+
+.pic12 {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Wikivoyage-Logo-v3-en.svg/135px-Wikivoyage-Logo-v3-en.svg.png") center center no-repeat;
+}
+
+.pic13 {
+	background: url("http://upload.wikimedia.org/wikipedia/meta/b/bc/Wiki.png") center center no-repeat;
+}
+
+.pic14 {
+	background: url("http://upload.wikimedia.org/wikipedia/incubator/b/bc/Wiki.png") center center no-repeat;
+}
+
+.pic15 {
+	background: url("http://wikitech.wikimedia.org/w/images/c/cf/Labslogo_thumb.png") center center no-repeat;
+}
+
+.pic16 {
+	background: url("http://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Wikimedia_Foundation_RGB_logo_with_text.svg/135px-Wikimedia_Foundation_RGB_logo_with_text.svg.png") center center no-repeat;
+}
+/*
+.white {
+	border: 2px solid #6E757F;
+	background: white;
+}
+*/
